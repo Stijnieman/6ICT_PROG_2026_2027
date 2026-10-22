@@ -11,3 +11,19 @@ inception_film = {
     'box_office': {'budget': 160000000, 'opbrengst': 829895144},
     'awards': {'Oscars': 0, 'Golden Globes': 4}
 }
+
+	# • Het jaar dat de film uitkwam: 2010
+	# • Het tweede element in de lijst met genres: Sciencefiction
+	# • De opbrengst van de film: 829895144
+	# • De rol van acteur Leonardo DiCaprio: Cobb
+
+# print(inception_film["jaar"])
+# print(inception_film["genre"][1])
+# print(inception_film['box_office']["opbrengst"])
+# print(inception_film["cast"][0]["rol"])
+# inception_film["awards"]["Oscars"] = 4
+# print(inception_film["awards"]["Oscars"])
+# inception_film["regisseur"] = "Christopher Nolan"
+
+
+print(inception_film)

@@ -23,3 +23,12 @@ spelinfo = {
         }
     }
 }
+# print(spelinfo['speler2']["naam"])
+# print(spelinfo['speler1']["positie"])
+# print(spelinfo['speler2']["inventaris"]["wapen"])
+# spelinfo['speler2']["inventaris"]["goud"] = 0
+# print(spelinfo['speler2']["inventaris"]["goud"])
+spelinfo['speler1']["hacker"] = False
+spelinfo['speler2']["hacker"] = True
+spelinfo['speler1']["inventaris"]["bepantsering"] = "schild"
+print(spelinfo)
